@@ -1,0 +1,26 @@
+.wrapper-produto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 250px;
+    padding: 15px;
+
+    border-radius: 20px;
+    background-color: rgb(228, 161, 73);
+}
+
+.wrapper-produto img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    place-self: center;
+}
+
+.wrapper-produto h3{
+    text-align: center;
+}
+
+.wrapper-produto a{
+    text-align: center;
+}
